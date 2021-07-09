@@ -26,6 +26,7 @@ jobs:
       uses: lukka/run-vcpkg@v7
       with:
         setupOnly: true
+        vcpkgDirectory: '${{ runner.workspace }}/vcpkg'
     # Now that vcpkg is installed, it is being used to run with the desired arguments.
     - run: $VCPKG_ROOT/vcpkg install grpc:linux-x64
       shell: bash
