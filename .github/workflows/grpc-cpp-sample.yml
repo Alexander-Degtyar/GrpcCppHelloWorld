@@ -2,7 +2,7 @@ name: grpc-cpp-sample
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, ci-vcpkg ]
   pull_request:
     branches: [ master ]
 
