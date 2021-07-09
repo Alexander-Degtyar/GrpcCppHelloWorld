@@ -5,7 +5,7 @@
 
 #include <grpcpp/grpcpp.h>
 #include "chat.prot.grpc.pb.h"
-#include "build/chat.prot.pb.h"
+#include "chat.prot.pb.h"
 
 class ChatClient
 {
