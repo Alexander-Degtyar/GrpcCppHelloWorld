@@ -20,10 +20,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    
-    - run: ${{ github.workspace }}
-      shell: bash
-    
+      with:
+            submodules: true
+
     # Restore from cache the previously built ports. If "cache miss", then provision vcpkg, install desired ports, finally cache everything for the next run.
     - name: Restore from cache and run vcpkg
       uses: lukka/run-vcpkg@main
