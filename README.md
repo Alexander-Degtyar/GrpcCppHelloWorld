@@ -1,4 +1,5 @@
 # GrpcCppHelloWorld
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Alexander-Degtyar/GrpcCppHelloWorld/grpc-cpp-sample?logo=GitHub)
 ## C++ gRPC client sample
 
 Client for the [gRPC .Net server sample](https://github.com/seclerp/GrpcHelloWorld "seclerp/GrpcHelloWorld").
